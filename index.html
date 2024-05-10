@@ -34,11 +34,13 @@
     <main>
       <!---------------------- HERO ---------------------->
       <section
-        class="bg-cover bg-center"
+        class="bg-cover bg-center hero"
         style="background-image: url(./assets/img/hero-bg-mobile-m1p.webp)"
       >
-        <div class="flex justify-center text-white pt-[20rem] pb-5">
-          <div class="flex flex-col gap-5 font-titillium mx-2">
+        <div
+          class="flex justify-center md:justify-start text-white pt-[20rem] md:pt-[5rem] pb-5"
+        >
+          <div class="flex flex-col gap-5 font-titillium md:w-[50%] mx-2">
             <h1 class="text-[26px] font-[700]">
               TENHA ACESSO
               <span class="text-[#37d1ff]"
@@ -67,7 +69,9 @@
         style="background-image: url(./assets/img/bg-section2-m1p.webp)"
       >
         <div class="flex justify-center text-white py-[2rem] font-titillium">
-          <div class="flex flex-col items-center text-center mx-[.5rem] gap-5">
+          <div
+            class="flex flex-col items-center md:w-[50%] text-center mx-[.5rem] gap-5"
+          >
             <h1 class="text-[27px] font-[600]">
               Estamos vivendo em <span class="text-[#e3ae2b]">uma era</span> de
               oportunidades…
@@ -78,7 +82,7 @@
             </p>
             <div class="bg-white w-full h-[12rem]"></div>
             <button
-              class="bg-gradient-to-r from-[#ff08cf] to-[#ff9a48] w-full border py-[.5rem] border-[#830d68] hover:bg-[#830d68] border-t-0 border-l-0 border-r-[5px] border-b-[5px] rounded-xl"
+              class="bg-gradient-to-r from-[#ff08cf] to-[#ff9a48] w-full md:w-fit md:px-10 border py-[.5rem] border-[#830d68] hover:bg-[#830d68] border-t-0 border-l-0 border-r-[5px] border-b-[5px] rounded-xl"
             >
               <h1 class="text-[15px] font-[700]">
                 <a href="">SIM! QUERO TER ACESSO</a>
@@ -89,12 +93,12 @@
       </section>
       <!---------------------- third ---------------------->
       <section class="bg-white">
-        <div class="flex py-[1rem] justify-center gap-6 leading-[1.3rem]">
-          <div class="flex flex-col items-center mx-[.5rem] gap-5">
+        <div class="flex py-[1rem] md:py-[5rem] justify-center gap-6">
+          <div class="flex flex-col items-center md:w-[50%] mx-[.5rem] gap-5">
             <div
               class="flex flex-col text-center gap-2 font-titillium items-center"
             >
-              <h1 class="text-[22px] font-[700]">
+              <h1 class="text-[22px] md:text-[30px] font-[700]">
                 O mercado digital é um dos mais lucrativos do mundo…
               </h1>
               <img
@@ -128,16 +132,16 @@
           </div>
         </div>
       </section>
-      <div class="absolute top-[195%] left-[85%]">
+      <div class="absolute top-[195%] md:top-[180%] left-[90%]">
         <img src="./assets/img/cubo.png" alt="cube" class="w-[5rem]" />
       </div>
       <!---------------------- fourth ---------------------->
       <section
-        class="text-white font-titillium bg-cover"
+        class="text-white md:bg-center font-titillium bg-cover"
         style="background-image: url(./assets/img/bg-section4-m1p.webp)"
       >
-        <div class="flex justify-start py-[2rem]">
-          <div class="flex flex-col items-start gap-4 mx-[.5rem]">
+        <div class="flex justify-start md:justify-start md:py-[5rem] py-[2rem]">
+          <div class="flex flex-col items-start gap-4 md:w-[35%] mx-[.5rem]">
             <div class="flex flex-col gap-3">
               <h1 class="text-[30px] leading-[2rem] font-[700]">
                 Todo mundo tem algo para ensinar…
@@ -158,7 +162,9 @@
         style="background-image: url(./assets/img/bg-section5-1-m1p.webp)"
       >
         <div class="flex justify-center py-[2rem]">
-          <div class="flex flex-col items-center gap-4 text-center mx-[1rem]">
+          <div
+            class="flex flex-col md:w-[50%] items-center gap-4 text-center mx-[1rem]"
+          >
             <div class="flex flex-col items-center gap-6">
               <h1 class="text-[50px] leading-[2rem] font-[700]">DUVIDA?</h1>
               <img
@@ -262,7 +268,7 @@
         style="background-image: url(./assets/img/bg-section7-m1p.webp)"
       >
         <div class="flex justify-center py-[2rem]">
-          <div class="flex flex-col items-center gap-4 mx-[1rem]">
+          <div class="flex flex-col md:w-[50%] items-center gap-4 mx-[1rem]">
             <h2 class="text-[26px] leading-[1.7rem] font-[700] text-center">
               Bom, e o que você vai aprender nesse meu treinamento?
             </h2>
@@ -319,8 +325,12 @@
       <!---------------------- seventh ---------------------->
       <section class="bg-[#17181f] text-white font-titillium">
         <div class="flex justify-center py-[2rem]">
-          <div class="flex flex-col items-center gap-4 mx-[1rem]">
-            <div class="flex flex-col items-center text-center gap-3">
+          <div
+            class="flex flex-col md:w-[50%] flex-wrap items-center gap-4 mx-[1rem]"
+          >
+            <div
+              class="flex flex-col md:w-[70%] items-center text-center gap-3"
+            >
               <h3 class="text-[23px] leading-[1.5rem] uppercase font-[700]">
                 E os benefícios para os alunos não param por aí...
               </h3>
@@ -423,16 +433,22 @@
                 método de lançamentos.
               </p>
             </div>
+            <p class="text-center">
+              Sinceramente, esse produto poderia ser vendido por um valor mínimo
+              de R$ 2.997,00, mas como quero te ajudar a iniciar nesse mercado e
+              fazer dinheiro já nas próximas semanas, o valor final deste
+              investimento para você será um preço super especial…
+            </p>
           </div>
         </div>
       </section>
       <!---------------------- eightth ---------------------->
       <section
-        class="font-titillium"
+        class="font-titillium bg-cover md:bg-center"
         style="background-image: url(./assets/img/bg-section10-m1p.webp)"
       >
-        <div class="flex justify-center py-[2rem]">
-          <div class="flex flex-col gap-4 mx-[1rem]">
+        <div class="flex justify-center md:justify-start py-[2rem]">
+          <div class="flex flex-col md:w-[35%] gap-4 mx-[1rem]">
             <h1 class="text-[25px] leading-[2rem] font-[600]">
               VOCÊ TERÁ ACESSO A TODO O CONTEÚDO ABAIXO,
               <span
@@ -467,18 +483,20 @@
           </div>
         </div>
       </section>
-      <!---------------------- eightth ---------------------->
+      <!---------------------- ninetth ---------------------->
       <section class="bg-[#17181f] text-white font-titillium">
         <div class="flex justify-center py-[2rem]">
-          <div class="flex flex-col mx-[.5rem]">
+          <div class="flex flex-col md:flex-row mx-[.5rem]">
             <div
-              class="border border-[2px] border-[#4b4f69] rounded-t-xl text-[#b4b4b4] p-2 text-center"
+              class="border border-[2px] flex flex-col md:gap-9 border-[#4b4f69] md:rounded-l-xl md:rounded-tr-none rounded-t-xl text-[#b4b4b4] p-2 md:p-5 md:text-2xl text-center"
             >
-              <h1 class="text-[19px] font-bold leading-[1.3rem]">
+              <h1 class="text-[19px] md:text-[20px] font-bold leading-[1.3rem]">
                 Acesse essa oportunidade para aprender sobre lançamentos e ganhe
                 mais de R$ 20.000 em presentes.
               </h1>
-              <h2 class="text-[18px] font-bold leading-[1.3rem] mt-5">
+              <h2
+                class="text-[18px] md:text-[20px] font-bold leading-[1.3rem] mt-5"
+              >
                 Valor normal do M1P <br />
                 <span class="line-through decoration-red-600 decoration-[2px]"
                   >De: 2.997,00</span
@@ -489,16 +507,18 @@
               </h4>
               <h4 class="font-bold">
                 <span>por:</span>
-                <span class="text-[#ffb707] font-bold text-[40px]"
-                  ><span class="text-[20px]">18x</span> DE 144,26</span
+                <span
+                  class="text-[#ffb707] font-bold md:text-[50px] text-[40px]"
+                  ><span class="text-[20px] md:text-[25px]">18x</span> DE
+                  144,26</span
                 >
               </h4>
               <span class="text-[#ffb707] font-bold">Ou R$ 1.997 à vista</span>
               <button
-                class="bg-gradient-to-r text-white mb-5 mt-7 from-[#ff08cf] to-[#ff9a48] w-full border py-[.5rem] border-[#830d68] hover:bg-[#830d68] border-t-0 border-l-0 border-r-[5px] border-b-[5px] rounded-xl"
+                class="bg-gradient-to-r text-white mb-5 mt-7 from-[#ff08cf] to-[#ff9a48] w-full border py-[.5rem] md:py-5 border-[#830d68] hover:bg-[#830d68] border-t-0 border-l-0 border-r-[5px] border-b-[5px] rounded-xl"
               >
-                <h1 class="text-[15px] font-[700]">
-                  <a href="">SIM! QUERO TER ACESSO</a>
+                <h1 class="text-[15px] md:text-[35px] font-[700]">
+                  <a href="">QUERO COMEÇAR AGORA</a>
                 </h1>
               </button>
               <span class="text-white text-[13px]">
@@ -506,7 +526,7 @@
               </span>
             </div>
             <div
-              class="border flex flex-col gap-8 border-[2px] text-[19px] p-3 border-[#4b4f69] rounded-b-xl"
+              class="border flex flex-col gap-8 md:rounded-r-xl md:rounded-bl-none md:w-full border-[2px] text-[19px] p-3 border-[#4b4f69] rounded-b-xl"
             >
               <p>⚠️São mais de R$ 1.000 reais de desconto⚠️</p>
               <p>
@@ -529,13 +549,13 @@
           </div>
         </div>
       </section>
-      <!---------------------- ninetth ---------------------->
+      <!---------------------- tenth ---------------------->
       <section
         class="bg-cover text-white font-titillium"
         style="background-image: url(./assets/img/bg-section7-m1p.webp)"
       >
         <div class="flex justify-center py-[2rem]">
-          <div class="flex flex-col gap-5 mx-[.5rem]">
+          <div class="flex flex-col md:w-[50%] gap-5 mx-[.5rem]">
             <h1 class="text-[25px] text-center leading-[2rem] font-[600]">
               AGORA VOCÊ TEM
               <span
@@ -594,13 +614,13 @@
           </div>
         </div>
       </section>
-      <!---------------------- tenth ---------------------->
+      <!---------------------- eleventh ---------------------->
       <section class="bg-[#17181f] text-white font-titillium">
         <div class="flex justify-center py-[2rem]">
           <div class="flex flex-col gap-5 mx-[.5rem]">
-            <div>
+            <div class="md:flex md:justify-center">
               <div
-                class="border border-[2px] flex flex-col gap-8 border-[#4b4f69] rounded-t-xl [box-shadow:0px_0px_100px_12px_rgba(0,_0,_0,_.7)_inset] p-4"
+                class="border border-[2px] border-r-0 md:mt-5 md:rounded-tr-none md:rounded-l-xl md:h-[90%] md:w-[35%] flex flex-col gap-8 border-[#4b4f69] rounded-t-xl [box-shadow:0px_0px_100px_12px_rgba(0,_0,_0,_.7)_inset] p-4"
               >
                 <h1 class="text-4xl font-bold w-[60%]">
                   SÓ DEPENDE DE VOCÊ <span class="text-[#45cdff]">!</span>
@@ -608,30 +628,32 @@
                 <p class="text-xl">
                   Comece agora a atingir o construir sua nova renda digital
                 </p>
-                <p class="text-[#45cdff] font-bold text-lg w-[75%]">
+                <p class="text-[#45cdff] md:mb-4 font-bold text-lg w-[75%]">
                   Mentoria MPPD + Presentes Exclusivos
                 </p>
               </div>
               <div
-                class="border border-[2px] flex flex-col items-center text-center gap-6 border-[#ff1685] rounded-b-xl p-4"
+                class="border border-[2px] md:w-[50%] flex flex-col md:rounded-xl items-center text-center gap-6 border-[#ff1685] rounded-b-xl p-4"
               >
                 <span
                   class="line-through text-xl decoration-red-600 decoration-2"
                   >DE R$ 2.997,00</span
                 >
                 <h4 class="font-bold text-white">
-                  <span class="text-[#b4b4b4] font-bold text-lg">por:18x</span>
-                  <span class="font-bold text-[40px]"
-                    ><span class="text-[20px]"></span> DE 144,26</span
+                  <span class="text-[#b4b4b4] md:text-xl font-bold text-lg"
+                    >por:18x</span
+                  >
+                  <span class="font-bold text-[40px] md:text-[50px]">
+                    DE R$ 144,26</span
                   >
                 </h4>
-                <span class="font-bold text-[#b4b4b4] mt-1"
+                <span class="font-bold md:text-xl text-[#b4b4b4] mt-1"
                   >Ou R$ 1.997 à vista</span
                 >
                 <button
-                  class="bg-gradient-to-r text-white from-[#ff08cf] to-[#ff9a48] w-full border py-[.5rem] border-[#830d68] hover:bg-[#830d68] border-t-0 border-l-0 border-r-[5px] border-b-[5px] rounded-xl"
+                  class="bg-gradient-to-r md:py-5 text-white from-[#ff08cf] to-[#ff9a48] w-full border py-[.5rem] border-[#830d68] hover:bg-[#830d68] border-t-0 border-l-0 border-r-[5px] border-b-[5px] rounded-xl"
                 >
-                  <h1 class="text-[15px] font-[700]">
+                  <h1 class="text-[15px] md:text-xl font-[700]">
                     <a href="">SIM! QUERO TER ACESSO</a>
                   </h1>
                 </button>
@@ -639,27 +661,27 @@
                   >As vagas podem esgotar a qualquer momento</span
                 >
               </div>
-              <div class="flex flex-col mt-8 items-center text-center gap-3">
-                <h3 class="text-[23px] leading-[1.5rem] uppercase font-[700]">
-                  Dúvidas frequentes
-                </h3>
-                <img
-                  class="w-[7rem]"
-                  src="./assets/img/line-gradient.png"
-                  alt=""
-                />
-              </div>
+            </div>
+            <div class="flex flex-col mt-8 items-center text-center gap-3">
+              <h3 class="text-[23px] leading-[1.5rem] uppercase font-[700]">
+                Dúvidas frequentes
+              </h3>
+              <img
+                class="w-[7rem]"
+                src="./assets/img/line-gradient.png"
+                alt=""
+              />
             </div>
           </div>
         </div>
       </section>
-      <!---------------------- eleventh ---------------------->
+      <!---------------------- twelfth ---------------------->
       <section
-        class="bg-cover font-titillium"
+        class="bg-cover twelfth bg-center font-titillium"
         style="background-image: url(./assets/img/bg-section10-m1p.webp)"
       >
-        <div class="flex justify-center py-[2rem]">
-          <div class="flex flex-col gap-5 mx-[.5rem]">
+        <div class="flex justify-center md:justify-start py-[2rem] md:py-10">
+          <div class="flex flex-col md:w-[40%] gap-5 mx-[.5rem]">
             <div class="flex flex-col w-[60%] gap-3">
               <h3 class="text-[30px] leading-[1.8rem] font-bold">
                 Conheça seu Professor:
@@ -694,11 +716,11 @@
               “AS PESSOAS ACHAM QUE EU TRABALHO COM MARKETING DIGITAL, MAS MEU
               NEGÓCIO
             </p>
-            <img src="./assets/img/HERO-mp-m1p.png" alt="" />
+            <img class="md:hidden" src="./assets/img/HERO-mp-m1p.png" alt="" />
           </div>
         </div>
       </section>
-      <!---------------------- twelfth ---------------------->
+      <!---------------------- footer ---------------------->
       <section class="text-white bg-[#020824] mt-[-2rem]">
         <footer class="text-center py-8 px-2 text-xs">
           <p>
@@ -709,5 +731,15 @@
         </footer>
       </section>
     </main>
+    <style>
+      @media (min-width: 768px) {
+        .hero {
+          background-image: url(./assets/img/hero-bg-m1p.webp) !important;
+        }
+        .twelfth {
+          background-image: url(./assets/img/bg-section15-m1p.webp) !important;
+        }
+      }
+    </style>
   </body>
 </html>
